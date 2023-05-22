@@ -1,5 +1,5 @@
 import * as interfaces from "./interfaces";
-import { Food } from "./food.js";
+import { Food } from "./food";
 export class Foods implements interfaces.Foodsable{
   private static instance: Foods;
   elements = document.querySelectorAll<HTMLDivElement>('.food');
